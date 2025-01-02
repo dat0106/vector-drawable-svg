@@ -11,6 +11,9 @@
     "src"
   ],
   "scripts": {
+    "run": "node bin/vd2svg.js",
+    "runfolder": "node bin/run.js",
+    "run_test": "node bin/run.js insource outsource",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
